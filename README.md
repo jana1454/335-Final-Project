@@ -1,7 +1,7 @@
 # 335-Final-Project
 
 Submitted by:   
-Group Members: Jana Ahmed, Georgia Kalapotharakou,  
+Group Members: Jana Ahmed, Georgia Kalapotharakou, Nicholas Chung
 App Description:   
 YouTube Video Link:   
 APIs:   
