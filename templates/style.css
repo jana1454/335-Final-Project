@@ -1,83 +1,67 @@
-body{
-    background-image: url(books.jpg);
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
+    color: #222;
+    font-size: 2rem;
 }
 
-h1{
-    font-size: 8rem;
-    color:rgb(254, 248, 232);
-}
-a{
-    font-size: 6rem;
-    color:rgb(254, 248, 232);
-}
-
-#welcome{
-    background-color: rgb(4, 49, 4, 0.7);
-    border-color: rgb(254, 248, 232);
-    border-width: 10px;
-    position:relative;
+main{
+    width: 80%; 
+    margin: 2rem auto; 
+    padding: 2rem;
     text-align: center;
-    border-style: groove;
-    width: 50rem;
-    height: 50rem;
-    
-}
-#search_body{
-    display: flex;
-    justify-content: center; 
-    align-items: center;      
-    margin: 0;             
-}
-#form_box{
-    background-color: rgb(4, 49, 4, 0.7);
-    border-color: rgb(254, 248, 232);
-    border-width: 10px;
-    border-style: groove;
-    width: 50rem;
-    height: 50rem;
+    background-color: rgba(255, 255, 255, 0.92);
 }
 
-label{
-    font-size: 3rem;
-    color:rgb(254, 248, 232);
+header {
+    background-color: #d17357;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
 }
 
-#catalog_header{
-    font-size: 6rem;
-    color:rgb(254, 248, 232);
-    margin-left: 6rem;
-    
+h1,h2 {
+    text-decoration: underline; 
+    font-size: 3rem; 
 }
 
-textarea{
-    font-size:xx-large;
+table {
+    margin: 0 auto;
 }
 
-#maxPage{
-    font-size: xx-large;
+table, th, td {
+    align-items: center;
+    border: 0.1rem solid black;
+    font-size: 2rem;
 }
 
-fieldset{
-    border-style: none;
+thead th { 
+    background:antiquewhite; 
 }
 
-#reset{
-    background-color:rgb(254, 248, 232);
-    height: 3rem;
-    border-radius: 3rem;
-    margin-left: 20rem;
-    color: rgb(4, 49, 4, 0.7);
+form {
+    margin: 2rem auto;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: antiquewhite;
+    padding: 1rem 1.2rem;
 }
 
-#submit{
-    background-color:rgb(254, 248, 232);
-    height: 3rem;
-    border-radius: 3rem;
-    color: rgb(4, 49, 4, 0.7);
+button {
+    font-size: 1.5rem; 
+    border: 0.1rem solid black; 
+    background: green; 
+    color: #fff; 
 }
 
-#return{
-    font-size: xx-large;
-    margin-left: 20rem;
+button:hover {
+    font-size: 1.7rem;
+    background: darkgreen;
 }
