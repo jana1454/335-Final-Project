@@ -62,14 +62,99 @@ form {
     gap: 1.5rem;
     background-color: antiquewhite;
     padding: 1rem 1.2rem;
+    border-radius: 5px;
 }
+
+.optionRow {
+  position: relative;
+}
+
+.bookA, .bookB, .bookC, .bookD, .bookE, .bookF, .bookG {
+    width: 1.8%;
+    position: absolute;
+    height: 7%;
+    font-size: 1.5rem; 
+    border: 0.1rem solid black; 
+    background: #abd8ff; 
+    color: #fff; 
+    transform: rotate(-2deg);
+}
+
+.bookA:hover {
+    transform: rotate(-2deg) scale(1.2);
+}
+
+.bookB {
+    width: 1.5%;
+    height: 6.2%;
+    transform: translateY(0.8vh) translateX(3vw) rotate(1deg);
+    background-color: #d17357;
+}
+
+.bookB:hover {
+    transform: translateY(0.8vh) translateX(3vw) rotate(1deg) scale(1.2);
+}
+
+.bookC {
+    width: 1.2%;
+    transform: translateY(0.5vh) translateX(33vw) rotate(4deg);
+    background: khaki;
+}
+
+.bookC:hover {
+    transform: translateY(0.5vh) translateX(33vw) rotate(4deg) scale(1.2);
+}
+
+.bookD {
+    width: 2%;
+    transform: translateY(0.5vh) translateX(35vw) rotate(-1deg);
+    background: cadetblue;
+}
+
+.bookD:hover {
+    transform: translateY(0.5vh) translateX(35vw) rotate(-1deg) scale(1.2);
+}
+
+.bookE {
+    width: 0.8%;
+    transform: rotate(0deg);
+    background: burlywood;
+}
+
+.bookE:hover {
+    transform: rotate(0deg) scale(1.2);
+}
+
+.bookF {
+    width: 1%;
+    transform: translateY(0.6vh) translateX(1.1vw) rotate(0deg);
+    height: 6.3%;
+    background: tomato;
+}
+
+.bookF:hover {
+    transform: translateY(0.6vh) translateX(1.1vw) rotate(0deg) scale(1.2);
+}
+
+.bookG {
+    width: 1%;
+    transform: translateX(2.6vw) rotate(-10deg);
+    background: crimson;
+}
+
+.bookG:hover {
+    transform: translateX(2.6vw) rotate(-10deg) scale(1.2);
+}   
 
 button {
     margin-top: 1.5rem;
     font-size: 1.5rem; 
-    border: 0.1rem solid black; 
+    border: 0.3rem double lightgoldenrodyellow; 
     background: green; 
     color: #fff; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
 }
 
 button:hover {

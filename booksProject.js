@@ -47,14 +47,21 @@ require("dotenv").config();
                 <p>Select an option below:</p>
 
                 <form action="/bookForm" method="GET">
+                    <div class="bookA"></div>
+                    <div class="bookB"></div>
                     <button type="submit">Search Books</button>
                 </form>
 
                 <form action="/registerForBook" method="GET">
-                    <button type="submit">Register Reader</button>
+                    <div class="bookC"></div>
+                    <div class="bookD"></div>
+                    <button type="submit">Register Reader</button>  
                 </form>
 
                 <form action="/viewDatabase" method="GET">
+                    <div class="bookE"></div>
+                    <div class="bookF"></div>
+                    <div class="bookG"></div>
                     <button type="submit">View Database of Readers</button>
                 </form>
 
