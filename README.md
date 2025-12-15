@@ -1,6 +1,6 @@
 # 335-Final-Project
 
-**Submitted by:**  
+**Submitted by:** Georgia Kalapotharakou    
 
 **Group Members:** Jana Ahmed (119930809), Georgia Kalapotharakou (119870785), Nicholas Chung (118715254), Muhammad Moin Uddin (120469879)  
 
