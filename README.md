@@ -2,7 +2,7 @@
 
 **Submitted by:** Georgia Kalapotharakou    
 
-**Group Members:** Jana Ahmed (119930809), Georgia Kalapotharakou (119870785), Nicholas Chung (118715254), Muhammad Moin Uddin (120469879)  
+**Group Members:** Jana Ahmed (119930809), Georgia Kalapotharakou (119870785), Nicholas Chung (nchung15), Muhammad Moin Uddin (120469879)  
 
 **App Description:** A library web application where users can register readers by entering their name, student ID, and the book they are reading. The app also allows users to search for books through the OpenLibrary API and displays the top 10 matching results for any title entered.     
 
